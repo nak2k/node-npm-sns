@@ -1,0 +1,36 @@
+{
+  "name": "npm-sns",
+  "version": "0.0.1",
+  "description": "Publish a package.json to AWS SNS",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bin": {
+    "npm-sns": "bin/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/nak2k/node-npm-sns/issues"
+  },
+  "dependencies": {
+    "aws4-with-assume-role": "0.0.2",
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/nak2k/node-npm-sns",
+  "keywords": [
+    "aws",
+    "npm",
+    "sns"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nak2k/node-npm-sns.git"
+  },
+  "scripts": {
+  },
+  "files": [
+    "README.md",
+    "bin/",
+    "lib/"
+  ]
+}
