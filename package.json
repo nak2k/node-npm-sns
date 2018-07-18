@@ -27,6 +27,7 @@
     "url": "git+https://github.com/nak2k/node-npm-sns.git"
   },
   "scripts": {
+    "postpublish": "npm-sns"
   },
   "files": [
     "README.md",
