@@ -27,7 +27,9 @@
     "url": "git+https://github.com/nak2k/node-npm-sns.git"
   },
   "scripts": {
-    "postpublish": "npm-sns"
+    "prepublishOnly": "npm test",
+    "postpublish": "npm-sns",
+    "test": "NPM_SNS_TOPIC_ARN=$NPM_SNS_TOPIC_ARN_TEST npm-sns"
   },
   "files": [
     "README.md",
