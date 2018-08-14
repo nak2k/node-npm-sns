@@ -10,7 +10,7 @@
     "url": "https://github.com/nak2k/node-npm-sns/issues"
   },
   "dependencies": {
-    "aws4-with-assume-role": "0.0.2",
+    "aws4-with-assume-role": "^0.1.0",
     "chalk": "^2.4.1"
   },
   "devDependencies": {},
