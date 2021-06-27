@@ -1,6 +1,6 @@
 {
   "name": "npm-sns",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Publish a package.json to AWS SNS",
   "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
   "bin": {
